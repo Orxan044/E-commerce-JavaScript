@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+
+.Market{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 700px;
+    margin-top: 20px;
+}
+
+.Market h1 , h2{
+    color: rgb(175, 32, 94);
+    font-size: 65px;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1120px;
+    margin-top: 250px;
+}
+
+.Market p{
+    font-size: 44px;
+}
+
+.BasketBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(112, 209, 236);
+    color: black;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+#container , #container-basket{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.center-div{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 30px 30px;
+    margin-top: 50px;
+}
+
+.product-div {
+    width: 420px;
+    height: 200px;
+    background-color: lightgray;
+}
+
+.product-div-basket {
+    width: 420px;
+    height: 200px;
+    background-color: rgb(112, 209, 236);
+}
+
+.productTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: black;
+}
+
+.productDesing{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 15px;
+    color: black;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+
+.total{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 1050px;
+    font-size: 45px; 
+}
+
+.total-count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 1000px;
+    font-size: 45px; 
+}
